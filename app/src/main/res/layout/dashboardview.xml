@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backsmall"
+    tools:context="com.example.parkngo.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Register at Parking"
+            android:background="@drawable/mybutton"
+            android:textSize="20dp"
+            android:textColor="#6CAAFF"
+            android:id="@+id/btnRegisterPark" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Find Owner"
+            android:background="@drawable/mybutton"
+            android:textSize="20dp"
+            android:textColor="#6CAAFF"
+            android:id="@+id/btnfindOwner" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Find Nearest Parking"
+            android:background="@drawable/mybutton"
+            android:textSize="20dp"
+            android:textColor="#6CAAFF"
+            android:id="@+id/btnfindNearestParking" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="My Wheels"
+            android:background="@drawable/mybutton"
+            android:textSize="20dp"
+            android:textColor="#6CAAFF"
+            android:id="@+id/btnmywheels" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="About Us"
+            android:background="@drawable/mybutton"
+            android:textSize="20dp"
+            android:textColor="#6CAAFF"
+            android:id="@+id/btnAboutUs" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Logout"
+            android:background="@drawable/mybutton"
+            android:textSize="20dp"
+            android:textColor="#6CAAFF"
+            android:id="@+id/btnLogoutUser" />
+    </LinearLayout>
+</LinearLayout>

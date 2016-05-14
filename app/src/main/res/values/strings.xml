@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ParknGo</string>
+    <string name="enter_string"><u>Enter</u></string>
+    <string name="signup"><u>New User</u></string>
+    <string name="loginpg"><u>Existing User</u></string>
+    <string name="google_api_key">AIzaSyBefd04ITk4P-2dA5ErL2ODZjfNFLAMBn0</string>
+    <string name="default_place_text">Select a place to get started</string>
+     <string name="selected_place">Last Selected Place:</string>
+    <string name="place_details">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        <i>Place Id: %2$s</i>
+        <br/>
+        Address: %3$s
+        <br/>
+        Phone: %4$s
+        <br/>
+        Website: %5$s
+    ]]>
+    </string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            Please write the keywords like MCD Parking or simply parking to find the nearest parking spots now!
+
+
+        ]]>
+    </string>
+    <string-array name="places">
+        <item >ATM</item>
+        <item >Bank</item>
+        <item >Cafe</item>
+        <item >Fire-Station</item>
+        <item >Hospital</item>
+        <item >Pharmacy</item>
+        <item >Police</item>
+        <item >Restaurant</item>
+        <item >Shopping Mall</item>
+    </string-array>
+</resources>

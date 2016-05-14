@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backsmall"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+    <TextView
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:text="Enter Vehicle's Number:"/>
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/mybutton"
+        android:textSize="20dp"
+        android:textColor="#6CAAFF"
+        android:id="@+id/editPlateNum" />
+    <Button
+        android:layout_margin="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Show"
+        android:background="@drawable/mybutton"
+        android:textSize="20dp"
+        android:textColor="#6CAAFF"
+        android:id="@+id/btnShowOwnerDetails" />
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/ownerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:visibility="invisible"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Owner"
+        android:background="@drawable/mybutton"
+        android:textSize="20dp"
+        android:textColor="#6CAAFF"
+        android:id="@+id/btnMsgowner" />
+
+</LinearLayout>
